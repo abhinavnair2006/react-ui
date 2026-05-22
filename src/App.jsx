@@ -1,4 +1,3 @@
-import Section2 from "./components/section1/section2/section2"
 import Section1 from "./components/section1/section1"
 
 function App() {
@@ -45,7 +44,7 @@ function App() {
   return (
     <div >
      <Section1 users={users} />
-     <Section2 />
+    
     </div>
   )
 }
