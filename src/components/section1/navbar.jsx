@@ -1,6 +1,6 @@
 import React from 'react'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className='flex px-6 py-5 gap-190 items-center'>
       <h3 className='bg-blue-500 font-bold text-white p-2 rounded-lg px-4 py-2 tracking-wide uppercase text-sm'>target audience</h3>
@@ -9,4 +9,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
